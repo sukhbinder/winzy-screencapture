@@ -1,7 +1,7 @@
 [project]
 name = "winzy-screencapture"
 version = "0.1"
-description = "Capture screen using movieio"
+description = "Capture screen using imageio"
 readme = "README.md"
 authors = [{name = "Sukhbinder Singh"}]
 license = {text = "Apache-2.0"}
@@ -10,7 +10,7 @@ classifiers = [
 ]
 dependencies = [
     "winzy",
-    "movieio",
+    "imageio",
 ]
 
 [project.urls]
