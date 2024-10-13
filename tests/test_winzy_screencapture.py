@@ -10,7 +10,7 @@ def test_create_parser():
 
     assert parser is not None
 
-    result = parser.parse_known_args()
+    result = parser.parse_known_args()[0]
     assert result.path == tempfile.gettempdir()
 
 
