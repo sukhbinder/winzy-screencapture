@@ -4,6 +4,7 @@ import tempfile
 
 from argparse import Namespace, ArgumentParser
 
+
 def test_create_parser():
     subparser = ArgumentParser().add_subparsers()
     parser = w.create_parser(subparser)

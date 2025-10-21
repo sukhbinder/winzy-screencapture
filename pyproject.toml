@@ -1,6 +1,6 @@
 [project]
 name = "winzy-screencapture"
-version = "0.1"
+version = "0.2"
 description = "Capture screen using imageio"
 readme = "README.md"
 authors = [{name = "Sukhbinder Singh"}]
@@ -10,7 +10,7 @@ classifiers = [
 ]
 dependencies = [
     "winzy",
-    "imageio",
+    "pillow",
 ]
 
 [project.urls]
@@ -20,7 +20,7 @@ Issues = "https://github.com/sukhbinder/winzy-screencapture/issues"
 CI = "https://github.com/sukhbinder/winzy-screencapture/actions"
 
 [project.entry-points."winzy.plugins"]
-scap = "winzy_screencapture:scap_plugin"
+screencapture = "winzy_screencapture:scap_plugin"
 
 
 [project.optional-dependencies]
