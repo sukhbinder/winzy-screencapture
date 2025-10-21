@@ -17,7 +17,17 @@ pip install winzy-screencapture
 ```
 ## Usage
 
-Usage instructions go here.
+This plugin provides a `screencapture` command for `winzy` to capture screenshots.
+
+To capture a screenshot to the default temporary directory:
+```bash
+winzy screencapture
+```
+
+To capture a screenshot and save it to a specific path:
+```bash
+winzy screencapture --path /path/to/your/directory
+```
 
 ## Development
 
